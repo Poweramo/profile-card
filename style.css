@@ -1,0 +1,124 @@
+/* TODO: change border of image */
+/* ! responsive */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*,
+::after,
+::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	overflow: hidden;
+	width: 100vw;
+	height: 100svh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.card {
+	width: 250px;
+	height: 280px;
+	text-align: center;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+	height: 30%;
+	background: rgb(0, 98, 255);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding: 10px;
+}
+
+#profile-photo {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	border: 2px solid rgb(0, 98, 255);
+}
+
+.body {
+	height: 70%;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-top: 25px;
+}
+
+.name {
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+
+.work {
+	font-weight: 400;
+}
+
+.social-media-icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-icon {
+	height: 20px;
+	width: 20px;
+	margin: 5px;
+}
+
+.buttons {
+	margin: 10px;
+}
+
+button {
+	height: 30px;
+	width: 80px;
+	border-radius: 20px;
+	background: rgb(0, 98, 255);
+	color: whitesmoke;
+	border: none;
+	padding: 5px;
+	cursor: pointer;
+	font-weight: 300;
+	font-size: 0.8rem;
+}
+
+.stats {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.shortcut-media-container {
+	margin: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+	margin: 3px;
+}
+
+.number {
+	font-weight: 300;
+	font-size: 0.8rem;
+}
+
+#separator {
+	height: 25px;
+	width: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+	.card {
+		height: 300px;
+		width: 330px;
+	}
+}
